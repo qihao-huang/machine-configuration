@@ -1,4 +1,10 @@
 # machine configuration
+## Xcode-mac
+`xcode-select --install`
+
+## Java-mac/ubuntu
+- openJDK
+
 ## IDE/Editor
 - Clion & Pycharm: run `tar -zxvf *.tar.gz` then `./clion.sh`  or `./pycharm.sh` under `bin` dir.
 - VS Code with extension:Python, C++, LaTeX Workshop, YAML, Anaconda Extension Pack.
@@ -9,6 +15,7 @@
 
 ## meshlab
 download from software center and run it from terminal `meshlab`
+
 
 ## PCL
 ```
