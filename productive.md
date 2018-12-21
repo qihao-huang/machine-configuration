@@ -12,6 +12,7 @@
 - onenote
 - **onedrive**
 - **outlook**
+- night mode
 
 ## Apple
 - pages/numbers/keynote
@@ -21,3 +22,5 @@
 - **Time Machine**
 - **Airdrop**
 - **Airplay**
+- loop up word by clik
+- night shift
