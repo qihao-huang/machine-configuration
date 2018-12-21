@@ -61,3 +61,5 @@ https://github.com/robbyrussell/oh-my-zsh
 31. Wunderlist: taks
 32. XnConvert: convertor files
 33. unarchiver: unzip
+
+more through xclient.info
