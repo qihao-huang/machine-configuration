@@ -23,7 +23,7 @@ sudo add-apt-repository ppa:v-launchpad-jochen-sprickerhof-de/pcl
 sudo apt-get update
 sudo apt-get install libpcl-dev
 ```
-
+bb
 param: `dev` for 16.04 or later with `all` for 14.04
 
 ## ssh
@@ -139,6 +139,16 @@ source ~/.bash_profile
 
 ## Shadowsocks
 - https://shadowsocks.org/en/download/clients.html
+- ubuntu
+1. download ss client
+```
+sudo add-apt-repository ppa:hzwhuang/ss-qt5
+sudo apt-get update
+sudo apt-get install shadowsocks-qt5
+```
+2. download chromium from software center
+3. set network proxy also config ss-client.
+
 
 ## Misc
 - input method: fcitx, sogou pinyi
