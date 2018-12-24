@@ -24,3 +24,9 @@
 - **Airplay**
 - loop up word by clik
 - night shift
+
+## notes
+- evernote
+- onenote
+- keep
+- notes
