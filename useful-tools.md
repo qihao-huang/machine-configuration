@@ -28,6 +28,7 @@ https://github.com/robbyrussell/oh-my-zsh
 
 
 # Softwares
+## mac
 1. iTerm2: terminal
 2. PDF Expert
 3. snippestLab: code gist
@@ -61,5 +62,25 @@ https://github.com/robbyrussell/oh-my-zsh
 31. Wunderlist: taks
 32. XnConvert: convertor files
 33. unarchiver: unzip
+
+
+## ubuntu
+1. teamviwer
+2. spotify
+3. shadowsocks-qt5
+4. youdao dict
+5. chromium
+6. wunderlist chrome app
+7. Gitkarken
+8. vs code
+9. VLC
+10. meshlab
+11. blender
+15. PCL
+16. spacevim
+17. oh-my-zsh
+18. vim
+19. libreoffice
+20.
 
 more through xclient.info

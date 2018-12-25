@@ -153,8 +153,17 @@ sudo apt-get install shadowsocks-qt5
 2. download chromium from software center
 3. set network proxy also config ss-client.
 
+## node
+```
+sudo apt install nodejs-legacy
+sudo apt install npm
+npm install express
+npm install fanyi
+```
+
 
 ## Misc
+- paste board: copyq
 - input method: fcitx, sogou pinyi
 - music: spotify, net-cloud-music
 - download: `aria2c --conf-path=/PATH/TO/aria2.conf -D`
