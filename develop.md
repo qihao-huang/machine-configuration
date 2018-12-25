@@ -7,7 +7,7 @@
 
 ## IDE/Editor
 - Clion & Pycharm: run `tar -zxvf *.tar.gz` then `./clion.sh`  or `./pycharm.sh` under `bin` dir.
-- VS Code with extension:Python, C++, LaTeX Workshop, YAML, Anaconda Extension Pack.
+- VS Code with extension:Python, C++, LaTeX Workshop, YAML, Anaconda Extension Pack, TODO Highlight, TODO Tree
 - 
 ## blender
 - download and extract ```*.tar.bz2```
@@ -66,6 +66,10 @@ export LD_LIBRARY_PATH=/usr/local/cuda-9.0/lib64${LD_LIBRARY_PATH:+:${LD_LIBRARY
 download runtime,developer libs and code samples from https://developer.nvidia.com/cudnn
 
 run: `sudo dpkg -i libcudnn7_7.4.2.24-1+cuda9.0_amd64.deb` also the other two `*.deb` file.
+
+- NCCL
+
+same as the above instructions.
 
 -  Pytorch
 Pytorch1.0 with CUDA9.0: `conda install pytorch torchvision -c pytorch`
