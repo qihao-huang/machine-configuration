@@ -1,10 +1,10 @@
 # config-dotfile
 
-## develop
-flows of configurating new ubuntu/mac machine.
+still in process
+## scripts
+scripts to install softwares and configure machines
 
-## useful-tools
-softwares and tools which has been used for a long time.
+## dotfiles
+fonts and all backup configuration.
 
-## productive
-suite comparison among Google, MS, Apple.
+## READMEs
