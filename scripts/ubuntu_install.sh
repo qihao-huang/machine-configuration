@@ -8,3 +8,7 @@ pip install mock
 # npm、gem ...
 
 sudo apt-get install fcitx
+
+sudo apt install git
+
+curl -sLf https://spacevim.org/install.sh | bash

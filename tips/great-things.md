@@ -1,3 +1,13 @@
+- [great things](#great-things)
+  - [Phones](#phones)
+  - [Computers](#computers)
+  - [Interesting](#interesting)
+  - [G Suite](#g-suite)
+  - [MS](#ms)
+  - [Apple](#apple)
+  - [notes](#notes)
+  - [pages](#pages)
+  - [tasks](#tasks)
 # great things
 
 ## Phones
@@ -7,6 +17,7 @@
 - Nexus 5/6
 - Apple SE/6
 - Oneplus 6
+- Apple XR
 
 ## Computers
 - Thinkpad X1 Carbon 2gen
@@ -24,7 +35,7 @@
 - **gmail**
 - **drive**
 - slide/sheet/doc
-- calender
+- calendar
 
 ## MS
 - **outlook**

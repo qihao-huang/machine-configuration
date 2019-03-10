@@ -1,23 +1,9 @@
+- [optional-soft](#optional-soft)
+  - [Chrome extension](#chrome-extension)
+  - [mac Download](#mac-download)
+  - [Linux](#linux)
+  
 # optional-soft
-things work well without the following softs, but, I love them.
-## brew
-- https://brew.sh/
-
-## terminal translator 
-1. `brew install node`,
-2. `npm install fanyi`,
-3. `which fanyi`,
-4. `echo "alias t=/usr/local/bin/fanyi" >> ~/.bash_profile `,
-5. `source ~/.zshrc` if you add `source ~/.bash_profile` in `~/.zshrc`.
-
-## spacevim
-- https://spacevim.org/quick-start-guide/,
-- sometimes, downloading missing fonts is needed.
-
-## oh-my-zsh
-- https://github.com/robbyrussell/oh-my-zsh,
-- run `chsh-s/bin/zsh` to change default Shell and reboot.
-
 ## Chrome extension
 1. Adblock Plus
 2. Advertising Terminator
@@ -71,7 +57,7 @@ things work well without the following softs, but, I love them.
 32. XnConvert: convertor files
 33. **unarchiver: unzip**
 
-## ubuntu
+## Linux
 1. **vs code**
 2. **FoxitReader**
 3. shadowsocks-qt5

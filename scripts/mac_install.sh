@@ -1,4 +1,14 @@
+xcode-select --install
+curl -sLf https://spacevim.org/install.sh | bash
+
+
 # Install Homebrew
+/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+
+brew install node
+npm install fanyi
+which fanyi
+# echo "alias t=/usr/local/bin/fanyi" >> ~/.bash_profile
 
 # Ask for the administrator password upfront.
 sudo -v
