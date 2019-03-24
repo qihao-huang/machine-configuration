@@ -1,12 +1,10 @@
 # for linux 
 alias rebash='source ~/.bashrc'
 alias open='gnome-open'
-alias getenv='echo $ENV'
-export cur_user=$(whoami)
 
-function setenv {
-   echo "$1" > ~/.env
-} 
+# function setenv {
+#    echo "$1" > ~/.env
+# } 
 
 #-----------conda------------
 function conda_setup_ ()
@@ -40,6 +38,10 @@ alias conda-dev="conda_setup_;"
 # if you want back to system env, when you are in anaconda qihao-dev.
 # in default bash env, which python -> /usr/bin/python
 alias sys-dev="source deactivate; source deactivate; source ~/.bashrc" 
+
+#-----------CUDA------------
+export PATH=/usr/local/cuda-9.0/bin${PATH:+:${PATH}}
+export LD_LIBRARY_PATH=/usr/local/cuda-9.0/lib64${LD_LIBRARY_PATH:+:${LD_LIBRARY_PATH}}
 
 #-----------git------------
 gituser()

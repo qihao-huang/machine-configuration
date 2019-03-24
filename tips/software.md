@@ -5,12 +5,12 @@
   
 # optional-soft
 ## Chrome extension
-1. Adblock Plus
+1. **Adblock Plus**
 2. Advertising Terminator
 3. BaiduExporter
 4. Google Arts & Culture
 5. Pushbullet
-6. Stylish: Baidu Lite 百度轻, JD Clean|干净京东, 淘宝搜索
+6. ** Stylish: Baidu Lite 百度轻, JD Clean|干净京东, 淘宝搜索**
 7. Tampermonkey: 拒绝二维码登录,
 8. Video Speed Controller
 9. Vimium
@@ -18,9 +18,7 @@
 11. Save to Pocket
 12. Google Keep Chrome Extension
 13. Google Docs Offline
-14. Clip Cloud 
-15. Clearly
-16. 1Password extension
+14. Clearly
 
 ## mac [Download](xclient.info)
 1. **iTerm2: terminal**
