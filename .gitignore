@@ -1,0 +1,46 @@
+# 忽略所有 .a 结尾的文件
+*.a
+
+# 但 lib.a 除外       
+!lib.a
+
+# 仅仅忽略项目根目录下的 TODO 文件，不包括 subdir/TODO    
+/TODO
+
+# 忽略 build/ 目录下的所有文件     
+build/
+
+# 会忽略 doc/notes.txt 但不包括 doc/server/arch.txt
+doc/*.txt 
+
+# 忽略dbg文件和dbg目录
+dbg 
+
+# 只忽略dbg目录，不忽略dbg文件
+dbg/ 
+
+# 只忽略dbg文件，不忽略dbg目录
+dbg 
+!dbg/
+
+# 只忽略当前目录下的dbg文件和目录，子目录的dbg不在忽略范围内
+/dbg
+
+# 忽略*.o和*.a文件
+*.[oa]
+
+# 忽略*.b和*.B文件，my.b除外
+*.[bB]
+
+# 忽略.idea文件夹及文件夹下文件
+.idea 
+
+# 忽略以.iml结尾的文件
+*.iml
+
+# * ？：代表任意的一个字符
+# * ＊：代表任意数目的字符
+# * {!ab}：必须不是此类型
+# * {ab,bb,cx}：代表ab,bb,cx中任一类型即可
+# * [abc]：代表a,b,c中任一字符即可
+# * [ ^abc]：代表必须不是a,b,c中任一字符
