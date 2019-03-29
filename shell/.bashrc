@@ -1,7 +1,3 @@
-# for linux 
-alias rebash='source ~/.bashrc'
-alias open='gnome-open'
-
 # function setenv {
 #    echo "$1" > ~/.env
 # } 
@@ -26,18 +22,6 @@ function conda_setup_ ()
     # unset __conda_setup
     # <<< conda init <<<
 }
-
-alias conda_setup="conda_setup_" 
-
-# enter into anaconda qihao-dev env.
-alias qihao="conda_setup_; source activate qihao-dev"
-
-# enter into anaconda base env.
-alias conda-dev="conda_setup_;" 
-
-# if you want back to system env, when you are in anaconda qihao-dev.
-# in default bash env, which python -> /usr/bin/python
-alias sys-dev="source deactivate; source deactivate; source ~/.bashrc" 
 
 #-----------CUDA------------
 export PATH=/usr/local/cuda-9.0/bin${PATH:+:${PATH}}

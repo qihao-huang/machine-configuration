@@ -1,3 +1,4 @@
+# clean PATH
 if [ -n "$PATH" ]; then
     old_PATH=$PATH:; PATH=
     while [ -n "$old_PATH" ]; do

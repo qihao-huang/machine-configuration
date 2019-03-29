@@ -4,6 +4,7 @@ sh -c "$(curl -fsSL https://github.com/qihao96/config-dotfile/tree/master/script
 ```
 - [machine configuration](#machine-configuration)
   - [oh-my-zsh](#oh-my-zsh)
+  - [git](#Git)
   - [ssh](#ssh)
   - [IDE/Editor](#ideeditor)
   - [sync VS code](#sync-vs-code)
@@ -90,29 +91,30 @@ NOTE: For GPU version, compile from source.
 ## Computing
 ### Anaconda
 -  download `anaconda.sh` from [anaconda](https://www.anaconda.com/distribution/)
--  `source ~/.bashrc` or `source ~/.bash_profile`
--  `conda create -n qihao python=3.6`
+-  follow `shell/.bashrc`
+-  `conda create -n qihao-dev python=3.6`
 
 ### GPU
 - follow `scripts/GPU_install.sh`
-- Pytorch1.0 with CUDA9.0: 
+- PyTorch 1.0 with CUDA 9.0/10.0: 
+  install PyTorch using conda, DONT install it using system's python.
   ```shell
-  conda install pytorch torchvision -c pytorch #anaconda
+  conda install pytorch torchvision -c pytorch # anaconda's conda
   # or
-  pip install torch torchvision  #pip
+  pip install torch torchvision  # anaconda's pip
   ```
 - test with:
     ```python
     import torch
     print(torch.__version__) # Version
-    print(torch.cuda.is_available()) # GPU
+    print(torch.cuda.is_available()) # GPU is available
     print(torch.cuda.device_count())
     print(torch.cuda.get_device_name(0))
     print(torch.cuda.current_device())
     ```
 
-## source chaneel
-- follow `source_channel.sh`
+## source channel
+- follow `scripts/source_channel.sh`
 
 ## Shadowsocks
 - download desktop [client](https://shadowsocks.org/en/download/clients.html)
@@ -124,6 +126,6 @@ NOTE: For GPU version, compile from source.
       sudo apt-get install shadowsocks-qt5
       ```
   2. download chromium from software center.
-  3. set network proxy with auto mode using `configs/autoproxy.pac`
+  3. set network proxy with auto mode using `file:///path/to/configs/autoproxy.pac`
    
 - mac: download `ShadowsocksX-NG` from GitHub.

@@ -6,9 +6,9 @@ conda config --set show_channel_urls yes
 # pip:
 cd ~
 mkdir .pip
-sudo cp pip.conf ~/.pip/pip.conf
+sudo cp ../configs/pip.conf ~/.pip/pip.conf
 
-# brew:
+# mac brew:
 cd "$(brew --repo)"
 git remote set-url origin https://mirrors.ustc.edu.cn/brew.git
 cd "$(brew --repo)/Library/Taps/homebrew/homebrew-core"
@@ -17,4 +17,4 @@ echo 'export HOMEBREW_BOTTLE_DOMAIN=https://mirrors.ustc.edu.cn/homebrew-bottles
 source ~/.bash_profile
 
 # apt
-sudo cp source.list /etc/apt/source.list
+sudo cp ../configs/source.list /etc/apt/source.list

@@ -9,6 +9,9 @@
 # Description:       tomcat service daemon
 ### END INIT INFO
 sudo mount /dev/sdb /media/data
+sudo docker start labelme 
+sudo docker exec labelme service apache2 restart
+sudo mount xxx.xxx.xxx.xxx:/volume1/folder /mnt
 
 # run it
 # sudo cp ./mount_disk.sh /etc/init.d/
