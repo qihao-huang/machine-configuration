@@ -4,7 +4,7 @@ sh -c "$(curl -fsSL https://github.com/qihao96/config-dotfile/tree/master/script
 ```
 - [machine configuration](#machine-configuration)
   - [oh-my-zsh](#oh-my-zsh)
-  - [git](#Git)
+  - [Git](#Git)
   - [ssh](#ssh)
   - [IDE/Editor](#ideeditor)
   - [sync VS code](#sync-vs-code)
@@ -46,7 +46,7 @@ git config --global user.email "qihao.huang@outlook.com"
 
 ## sync VS code
 - extensions:
-    * Setting Sync: Gist ID `dab848e23bbe4c8e3e1da117a231092449cdea1c`
+    * Setting Sync: Gist ID `0bfa220dbdd0150bbc911f5d856c300f93ae9aee`
     * `Shift+Ctrl+p` in ubuntu or `command+shift+p` in mac
 
 ## Java

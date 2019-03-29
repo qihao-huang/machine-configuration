@@ -10,4 +10,4 @@ elif [[ "$os" == "Darwin" ]]; then
 else
     echo "unknown OS"
     exit 1
-fi
+fi 
