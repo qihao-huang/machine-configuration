@@ -46,7 +46,7 @@ git config --global user.email "qihao.huang@outlook.com"
 
 ## sync VS code
 - extensions:
-    * Setting Sync: Gist ID `0bfa220dbdd0150bbc911f5d856c300f93ae9aee`
+    * Setting Sync: Gist ID `42455e097ef29dfc7cfeaaf1a937ace6`
     * `Shift+Ctrl+p` in ubuntu or `command+shift+p` in mac
 
 ## Java
