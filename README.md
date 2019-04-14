@@ -1,6 +1,6 @@
 start with `bootstrap.sh`
 ```shell
-sh -c "$(curl -fsSL https://github.com/qihao96/config-dotfile/tree/master/scripts/bootstrap.sh)"
+sh -c "$(curl -fsSL https://github.com/qihao96/machine-configuration/tree/master/scripts/bootstrap.sh)"
 ```
 - [machine configuration](#machine-configuration)
   - [oh-my-zsh](#oh-my-zsh)
