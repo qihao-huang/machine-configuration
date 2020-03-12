@@ -114,6 +114,15 @@ NOTE: For GPU version, compile from source.
     print(torch.cuda.get_device_name(0))
     print(torch.cuda.current_device())
     ```
+    
+- test multi-GPU:
+  ```shell
+  git clone https://github.com/kentaroy47/pytorch-mgpu-cifar10.git
+  cd pytorch-mgpu-cifar10
+  export CUDA_VISIBLE_DEVICES=0,1 # parallel training with GPUs 0 and 1.
+  nohup python train_cifar10.py > log.txt &
+  watch -n 0.5 nvidia-smi
+  ```
 
 ## source channel
 - follow `scripts/source_channel.sh`
