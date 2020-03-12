@@ -40,32 +40,28 @@ git config --global user.email "qihao.huang@outlook.com"
 - and copy it into Github/GitLab/... settings.
 
 ## IDE/Editor 
-- Clion & Pycharm: 
-    * run `tar -zxvf *.tar.gz`,
-    * then run `./clion.sh`  or `./pycharm.sh` under `bin` dir.
-
-## sync VS code
-- extensions:
-    * Setting Sync: 
-       - Gist ID `42455e097ef29dfc7cfeaaf1a937ace6`
-       - TOKEN: `c166366c023a9ac5a13b89b35f8120c17a505bdf` 
-    * `Shift+Ctrl+p` in ubuntu or `command+shift+p` in mac
+- ~~Clion & Pycharm:~~
+    ~~* run `tar -zxvf *.tar.gz`,~~
+    ~~* then run `./clion.sh`  or `./pycharm.sh` under `bin` dir.~~
+- VS Code: SSH Remote
 
 ## Java
 - openJDK
     * test with `java -version` and `javac -version`.
+- mac java version
+    * `echo $(/usr/libexec/java_home)`
+    * `export JAVA_HOME=$(/usr/libexec/java_home)` in `~/.bash_profile`
 
 ## Special track
 ### ROS in ubuntu
 - [installment](http://wiki.ros.org/kinetic/Installation/Ubuntu)
 
 ### openCV
-- Version: 3.3.1 with ROS Kinetic (recommend) or compile version 4.0 from source.
-
-``` shell
-pip install opencv-python # anaconda in mac ubuntu
-pip3 install --user opencv-python # ubuntu without anaconda.
-```
+- Version: 3.3.1 embedded in ROS Kinetic (recommend)
+  or 
+  ``` shell
+  pip install opencv-python==3.3.1
+  ```
 
 ### blender
 - download and extract ```*.tar.bz2```
@@ -73,8 +69,7 @@ pip3 install --user opencv-python # ubuntu without anaconda.
 - set blender Python API if needed.
 
 ### meshlab
-- download from software center and run it from terminal `meshlab`
-- or just `sudo apt install meshlab`.
+- `sudo apt install meshlab`.
 
 ### PCL
 CPU version
@@ -98,7 +93,7 @@ NOTE: For GPU version, compile from source.
 
 ### GPU
 - follow `scripts/GPU_install.sh`
-- PyTorch 1.0 with CUDA 9.0/10.0: 
+- PyTorch 1.4 with CUDA 9.0/10.0: 
   install PyTorch using conda, DONT install it using system's python.
   ```shell
   conda install pytorch torchvision -c pytorch # anaconda's conda
@@ -106,14 +101,14 @@ NOTE: For GPU version, compile from source.
   pip install torch torchvision  # anaconda's pip
   ```
 - test with:
-    ```python
-    import torch
-    print(torch.__version__) # Version
-    print(torch.cuda.is_available()) # GPU is available
-    print(torch.cuda.device_count())
-    print(torch.cuda.get_device_name(0))
-    print(torch.cuda.current_device())
-    ```
+  ```python
+  import torch
+  print(torch.__version__) # Version
+  print(torch.cuda.is_available()) # GPU is available
+  print(torch.cuda.device_count())
+  print(torch.cuda.get_device_name(0))
+  print(torch.cuda.current_device())
+  ```
     
 - test multi-GPU:
   ```shell
