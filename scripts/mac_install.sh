@@ -8,6 +8,3 @@ brew install node
 npm install fanyi
 which fanyi
 echo "alias t=/usr/local/bin/fanyi" >> ~/.bash_profile
-
-brew install ariac2
-# aria2c --conf-path=/PATH/TO/aria2.conf -D
