@@ -29,10 +29,10 @@ sh -c "$(curl -fsSL https://github.com/qihao96/machine-configuration/tree/master
 - then reboot.
   
 ## Git
-```shell
-git config --global user.name "qihao96"
-git config --global user.email "qihao.huang@outlook.com"
-```
+  ```shell
+  git config --global user.name "qihao96"
+  git config --global user.email "qihao.huang@outlook.com"
+  ```
 
 ## ssh
 -  `ssh-keygen -t rsa -C "qihao.huang@outlook.com"`
@@ -40,9 +40,6 @@ git config --global user.email "qihao.huang@outlook.com"
 - and copy it into Github/GitLab/... settings.
 
 ## IDE/Editor 
-- ~~Clion & Pycharm:~~
-    ~~* run `tar -zxvf *.tar.gz`,~~
-    ~~* then run `./clion.sh`  or `./pycharm.sh` under `bin` dir.~~
 - VS Code: SSH Remote
 
 ## Java
@@ -72,18 +69,18 @@ git config --global user.email "qihao.huang@outlook.com"
 - `sudo apt install meshlab`.
 
 ### PCL
-CPU version
-```shell
-sudo add-apt-repository ppa:v-launchpad-jochen-sprickerhof-de/pcl
-sudo apt-get update
-sudo apt-get install libpcl-dev
-```
+- CPU version
+  ```shell
+  sudo add-apt-repository ppa:v-launchpad-jochen-sprickerhof-de/pcl
+  sudo apt-get update
+  sudo apt-get install libpcl-dev
+  ```
 
-param: 
-- `libpcl-dev` for 16.04 or later 
-- `libpcl-all` for 14.04
+  param: 
+  - `libpcl-dev` for 16.04 or later 
+  - `libpcl-all` for 14.04
 
-NOTE: For GPU version, compile from source.
+- For GPU version, compile from source.
 
 ## Computing
 ### Anaconda
