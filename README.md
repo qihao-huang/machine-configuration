@@ -116,6 +116,17 @@ sh -c "$(curl -fsSL https://github.com/qihao96/machine-configuration/tree/master
   watch -n 0.5 nvidia-smi
   ```
 
+- tmux:
+  [tutorial](http://www.ruanyifeng.com/blog/2019/10/tmux.html)
+  ```
+  tmux new -s session_name
+  nvidia-smi
+  # running training
+  # ctrl+b d
+  # next time
+  tmux attach -t session_name
+  ```
+
 ## source channel
 - follow `scripts/source_channel.sh`
 
