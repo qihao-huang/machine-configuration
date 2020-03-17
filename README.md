@@ -38,6 +38,7 @@ sh -c "$(curl -fsSL https://github.com/qihao96/machine-configuration/tree/master
 -  `ssh-keygen -t rsa -C "qihao.huang@outlook.com"`
 -  then run `pbcopy < ~/.ssh/id_rsa.pub` in mac or `cat ~/.ssh/id_rsa.pub | xsel` in ubuntu,
 - and copy it into Github/GitLab/... settings.
+- [vs code ssh remote config](./.ssh_gpufarm_config)
 
 ## IDE/Editor 
 - VS Code: SSH Remote
