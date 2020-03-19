@@ -18,7 +18,7 @@
 11. Google Docs Offline
 12. Clearly
 
-## mac [Download](xclient.info)
+## mac [Download](https://www.xclient.info)
 1. **iTerm2: terminal**
 2. **PDF Expert**
 3. Spotify: music
