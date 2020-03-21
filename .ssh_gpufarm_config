@@ -4,7 +4,7 @@
 Host gatekeeper
   HostName gatekeeper.cs.hku.hk
   User h3567721
-Host gpugate1
-  HostName gpugate1.cs.hku.hk
+Host gpugate2
+  HostName gpugate2.cs.hku.hk
   User h3567721
   ProxyCommand C:\Windows\System32\OpenSSH\ssh.exe -q -W %h:%p gatekeeper
