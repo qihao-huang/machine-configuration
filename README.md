@@ -4,10 +4,9 @@ sh -c "$(curl -fsSL https://github.com/qihao96/machine-configuration/tree/master
 ```
 - [machine configuration](#machine-configuration)
   - [oh-my-zsh](#oh-my-zsh)
-  - [Git](#Git)
+  - [Git](#git)
   - [ssh](#ssh)
   - [IDE/Editor](#ideeditor)
-  - [sync VS code](#sync-vs-code)
   - [Java](#java)
   - [Special track](#special-track)
     - [ROS in ubuntu](#ros-in-ubuntu)
@@ -18,7 +17,7 @@ sh -c "$(curl -fsSL https://github.com/qihao96/machine-configuration/tree/master
   - [Computing](#computing)
     - [Anaconda](#anaconda)
     - [GPU](#gpu)
-  - [source chaneel](#source-chaneel)
+  - [source channel](#source-channel)
   - [Shadowsocks](#shadowsocks)
 
 # machine configuration
@@ -35,16 +34,17 @@ sh -c "$(curl -fsSL https://github.com/qihao96/machine-configuration/tree/master
   ```
 
 ## ssh
--  `ssh-keygen -t rsa -C "qihao.huang@outlook.com"`
--  then run `pbcopy < ~/.ssh/id_rsa.pub` in mac or `cat ~/.ssh/id_rsa.pub | xsel` in ubuntu,
-- and copy it into Github/GitLab/... settings.
-- [vs code ssh remote config](./.ssh_gpufarm_config)
+- `ssh-keygen -t rsa -C "qihao.huang@outlook.com"`
+- then run `pbcopy < ~/.ssh/id_rsa.pub` in mac or `cat ~/.ssh/id_rsa.pub | xsel` in ubuntu,
+- and copy it into Github settings.
+- [vs code ssh remote config](./configs/.ssh_gpufarm_config)
 
 ## IDE/Editor 
-- VS Code: SSH Remote
+- VS Code
 
 ## Java
 - openJDK
+    * `brew tap AdoptOpenJDK/openjdk; brew cask install adoptopenjdk11`
     * test with `java -version` and `javac -version`.
 - mac java version
     * `echo $(/usr/libexec/java_home)`
@@ -86,8 +86,8 @@ sh -c "$(curl -fsSL https://github.com/qihao96/machine-configuration/tree/master
 ## Computing
 ### Anaconda
 -  download `anaconda.sh` from [anaconda](https://www.anaconda.com/distribution/)
--  follow `shell/.bashrc`
--  `conda create -n qihao-dev python=3.6`
+-  follow `shell/.bash_profile`
+-  `conda create -n qihao-dev python=3.7`
 
 ### GPU
 - follow `scripts/GPU_install.sh`

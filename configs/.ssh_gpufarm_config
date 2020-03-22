@@ -1,6 +1,6 @@
 # vs code remote development ssh config
 # by SSH ProxyCommand in CHI WAH Lib Windows
-# C:\Windows\System32\OpenSSH\ssh.exe
+# ssh -> C:\Windows\System32\OpenSSH\ssh.exe
 Host gatekeeper
   HostName gatekeeper.cs.hku.hk
   User h3567721

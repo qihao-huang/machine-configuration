@@ -1,9 +1,14 @@
-- [optional-soft](#optional-soft)
+- [software](#software)
+  - [VS Code](#vs-code)
   - [Chrome extension](#chrome-extension)
   - [mac Download](#mac-download)
   - [Linux](#linux)
   
-# optional-soft
+# software
+
+## VS Code
+1. synced with outlook account
+
 ## Chrome extension
 1. **Adblock Plus**
 2. Advertising Terminator
