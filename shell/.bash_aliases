@@ -13,8 +13,6 @@ else
     exit 1
 fi
 
-alias t="/usr/local/bin/fanyi" # install fanyi first
-
-alias qihao="source activate qihao-dev"
+alias t="/usr/local/bin/fanyi"
 alias rezsh="source ~/.zshrc"
 alias rebash='source ~/.bashrc'
