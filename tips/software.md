@@ -38,7 +38,7 @@
 9. **Sketch: design**
 10. **IINA: Video/Music player**
 11. **JetBrains Toolbox: version manger of CLion, PyCharm, Datagrip...**
-12. Kindle: for e-books
+12. VS Code
 13. MATLAB_R2018a
 14. meshlab: mesh
 15. **ShadowsocksX-NG-R8: GFW**
@@ -50,6 +50,13 @@
 21. TeX:mactex
 22. TeamViewer: remote control
 23. RStudio: computing
+24. Docker
+25. Google Chrome
+26. Tuxera Disk Manager
+27. OneDrive
+28. Trello
+29. Downie
+
 
 ## Linux
 1. **vs code**
