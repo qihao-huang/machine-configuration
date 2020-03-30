@@ -49,6 +49,7 @@ sh -c "$(curl -fsSL https://github.com/qihao96/machine-configuration/tree/master
 - mac java version
     * `echo $(/usr/libexec/java_home)`
     * `export JAVA_HOME=$(/usr/libexec/java_home)` in `~/.bash_profile`
+      * e.g. `echo 'export JAVA_HOME=$(/usr/libexec/java_home)' >> ~/.zshrc`
 
 ## Special track
 ### ROS in ubuntu
