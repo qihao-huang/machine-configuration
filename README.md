@@ -32,6 +32,11 @@ sh -c "$(curl -fsSL https://github.com/qihao96/machine-configuration/tree/master
   git config --global user.name "qihao96"
   git config --global user.email "qihao.huang@outlook.com"
   ```
+## brew
+  ```shell
+  /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"
+  ```
+
 
 ## ssh
 - `ssh-keygen -t rsa -C "qihao.huang@outlook.com"`
