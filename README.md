@@ -36,6 +36,10 @@ sh -c "$(curl -fsSL https://github.com/qihao96/machine-configuration/tree/master
   ```shell
   /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"
   ```
+## spacevim
+  ```shell
+  curl -sLf https://spacevim.org/install.sh | bash
+  ```
 
 
 ## ssh
