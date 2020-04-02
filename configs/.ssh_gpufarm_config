@@ -2,16 +2,20 @@
 # by SSH ProxyCommand in CHI WAH Lib Windows
 # ssh -> C:\Windows\System32\OpenSSH\ssh.exe
 
-TCPKeepAlive=yes
+# TCPKeepAlive=yes
 # Client每隔 120 秒发送一次请求给 Server，然后 Server响应，从而保持连接
-ServerAliveInterval 120
+# ServerAliveInterval 120
 # Client发出请求后，服务器端没有响应得次数达到3，就自动断开连接，正常情况下，Server 不会不响应
-ServerAliveCountMax 3
+# ServerAliveCountMax 3
 
 Host gatekeeper
   HostName gatekeeper.cs.hku.hk
   User h3567721
+  ServerAliveInterval 120
+  ServerAliveCountMax 3
 Host gpugate2
   HostName gpugate2.cs.hku.hk
   User h3567721
-  ProxyCommand C:\Windows\System32\OpenSSH\ssh.exe -q -W %h:%p gatekeeper
+  ServerAliveInterval 120
+  ServerAliveCountMax 3
+  ProxyCommand ssh -q -W %h:%p gatekeeper
