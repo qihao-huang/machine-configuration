@@ -35,12 +35,14 @@ sh -c "$(curl -fsSL https://github.com/qihao96/machine-configuration/tree/master
 ## brew
   ```shell
   /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"
+  sudo chown -R $(whoami) /usr/local/share/doc /usr/local/share/man /usr/local/share/man/man1
+  chmod u+w /usr/local/share/doc /usr/local/share/man /usr/local/share/man/man1
+  brew install node
   ```
 ## spacevim
   ```shell
   curl -sLf https://spacevim.org/install.sh | bash
   ```
-
 
 ## ssh
 - `ssh-keygen -t rsa -C "qihao.huang@outlook.com"`
