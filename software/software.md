@@ -8,6 +8,19 @@
 
 ## VS Code
 1. synced with outlook account
+2. C/C++
+3. LaTex Workshop
+4. Markdown All in One
+5. Prettier - Code formatter
+6. Python
+7. Remote
+8. TODO Highlight
+9. Visual Studio Intellicode
+10. vscode-icons
+11. Indenticator
+12. Path Intellisense
+13. TODO Tree
+14. VS Code Jupyter Notebook
 
 ## Chrome extension
 1. **Adblock Plus**
