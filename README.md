@@ -1,7 +1,3 @@
-start with `bootstrap.sh`
-```shell
-sh -c "$(curl -fsSL https://github.com/qihao96/machine-configuration/tree/master/scripts/bootstrap.sh)"
-```
 - [machine configuration](#machine-configuration)
   - [oh-my-zsh](#oh-my-zsh)
   - [Git](#git)
