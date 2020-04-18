@@ -74,6 +74,7 @@
 27. OneDrive
 28. Trello
 29. Downie
+30. Termius
 
 
 ## Linux
