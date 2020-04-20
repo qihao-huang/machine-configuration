@@ -25,7 +25,7 @@
   
 ## Git
   ```shell
-  git config --global user.name "qihao96"
+  git config --global user.name "QihaoHuang"
   git config --global user.email "qihao.huang@outlook.com"
   ```
 ## brew
