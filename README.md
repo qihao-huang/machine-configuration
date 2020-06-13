@@ -135,6 +135,18 @@
   # next time
   tmux attach -t session_name
   ```
+  
+- Tensorboard/Jupyter:
+  ```
+  hostname -I 
+  # connect Cisco Annyconnect to CS/Univ's VPN
+  # open local terminal
+  # for Tensorboard
+  ssh -L 8888:localhost:8888 <your_gpu_acct_username>@10.XXX.XXX.XXX
+  # for Jupyter
+  ssh -L 6006:localhost:6006 <your_gpu_acct_username>@10.XXX.XXX.XXX
+  
+  ```
 
 ## source channel
 - follow `scripts/source_channel.sh`
