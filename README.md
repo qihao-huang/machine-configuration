@@ -1,3 +1,5 @@
+![visitors](https://visitor-badge.glitch.me/badge?page_id=qihao-huang.machine-configuration)
+
 - [machine configuration](#machine-configuration)
   - [oh-my-zsh](#oh-my-zsh)
   - [Git](#git)
