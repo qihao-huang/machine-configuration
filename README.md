@@ -33,6 +33,8 @@
 ## brew
   ```shell
   /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"
+  # CN
+  /bin/zsh -c "$(curl -fsSL https://gitee.com/cunkai/HomebrewCN/raw/master/Homebrew.sh)"
   sudo chown -R $(whoami) /usr/local/share/doc /usr/local/share/man /usr/local/share/man/man1
   chmod u+w /usr/local/share/doc /usr/local/share/man /usr/local/share/man/man1
   brew install node
