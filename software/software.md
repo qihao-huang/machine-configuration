@@ -21,6 +21,7 @@
 12. Path Intellisense
 13. TODO Tree
 14. VS Code Jupyter Notebook
+15. Bracket Pair Colorizer 2
 
 ## Chrome extension
 1. **Adblock Plus**
