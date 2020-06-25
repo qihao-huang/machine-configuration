@@ -4,7 +4,7 @@
   - [oh-my-zsh](#oh-my-zsh)
   - [Git](#git)
   - [brew](#brew)
-  - [spacevim](#spacevim]
+  - [spacevim](#spacevim)
   - [bashrc](#bashrc)
   - [ssh](#ssh)
   - [IDE/Editor](#ideeditor)
