@@ -44,6 +44,17 @@
   curl -sLf https://spacevim.org/install.sh | bash
   ```
 
+## Bashrc
+  - Check my configs(./configs/.bash_profile)
+  ```
+  echo ${PATH}
+  # add new variables in bashrc/bash_profile
+  echo 'export alias cc-v="conda activate cc-v"' >> ~/.zshrc
+  source ~/.zhsrc
+  # or
+  rezsh
+  ```
+
 ## ssh
 - `ssh-keygen -t rsa -C "qihao.huang@outlook.com"`
 - then run `pbcopy < ~/.ssh/id_rsa.pub` in mac or `cat ~/.ssh/id_rsa.pub | xsel` in ubuntu,
