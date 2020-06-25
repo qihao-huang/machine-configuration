@@ -3,6 +3,9 @@
 - [machine configuration](#machine-configuration)
   - [oh-my-zsh](#oh-my-zsh)
   - [Git](#git)
+  - [brew](#brew)
+  - [spacevim](#spacevim]
+  - [bashrc](#bashrc)
   - [ssh](#ssh)
   - [IDE/Editor](#ideeditor)
   - [Java](#java)
@@ -44,7 +47,7 @@
   curl -sLf https://spacevim.org/install.sh | bash
   ```
 
-## Bashrc
+## bashrc
   - Check my [configs](./configs/.bash_profile)
   ```
   echo ${PATH}
