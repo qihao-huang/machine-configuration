@@ -1,5 +1,3 @@
-![visitors](https://visitor-badge.glitch.me/badge?page_id=qihao-huang.machine-configuration)
-
 - [machine configuration](#machine-configuration)
   - [oh-my-zsh](#oh-my-zsh)
   - [Git](#git)
@@ -23,6 +21,13 @@
 
 # machine configuration
 
+## python package
+- `pip install -U scikit-learn`
+- `python -m pip show scikit-learn # to see which version and where scikit-learn is installed`
+- `python -m pip freeze # to see all packages installed in the active virtualenv`
+- `python -c "import sklearn; sklearn.show_versions()"`
+
+ 
 ## oh-my-zsh
 - `sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"`
 - run `chsh-s/bin/zsh` to change default Shell. 
