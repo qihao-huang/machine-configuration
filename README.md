@@ -26,6 +26,11 @@
 - `python -m pip show scikit-learn # to see which version and where scikit-learn is installed`
 - `python -m pip freeze # to see all packages installed in the active virtualenv`
 - `python -c "import sklearn; sklearn.show_versions()"`
+or
+- `conda install scikit-learn`
+- `conda list scikit-learn`
+- `conda list`
+- `python -c "import sklearn; sklearn.show_versions()"`
 
  
 ## oh-my-zsh
