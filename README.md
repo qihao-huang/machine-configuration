@@ -1,6 +1,6 @@
 - [machine configuration](#machine-configuration)
   - [Linux](#Linux)
-  - [python package](#python package)
+  - [python-package](#python-package)
   - [oh-my-zsh](#oh-my-zsh)
   - [Git](#git)
   - [brew](#brew)
@@ -27,7 +27,7 @@
 - `du -h --max-depth=1`
 
 
-## python package
+## python-package
 - `pip install -U scikit-learn`
 - `python -m pip show scikit-learn # to see which version and where scikit-learn is installed`
 - `python -m pip freeze # to see all packages installed in the active virtualenv`
