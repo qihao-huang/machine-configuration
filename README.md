@@ -1,4 +1,6 @@
 - [machine configuration](#machine-configuration)
+  - [Linux](#Linux)
+  - [python package](#python package)
   - [oh-my-zsh](#oh-my-zsh)
   - [Git](#git)
   - [brew](#brew)
@@ -20,6 +22,10 @@
   - [Shadowsocks](#shadowsocks)
 
 # machine configuration
+## Linux
+- `df -hl`
+- `du -h --max-depth=1`
+
 
 ## python package
 - `pip install -U scikit-learn`
