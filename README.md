@@ -152,12 +152,39 @@ or
   ```
     
 - test multi-GPU:
-  ```shell
-  git clone https://github.com/kentaroy47/pytorch-mgpu-cifar10.git
+  - [tensorflow-mgpu-cifar10](https://github.com/qihao-huang/tensorflow-mgpu-cifar10)
+  - [pytorch-mgpu-cifar10](https://github.com/qihao-huang/pytorch-mgpu-cifar10)
+  
+  ```shell  
+  https://github.com/qihao-huang/tensorflow-mgpu-cifar10.git
   cd pytorch-mgpu-cifar10
   export CUDA_VISIBLE_DEVICES=0,1 # parallel training with GPUs 0 and 1.
   nohup python train_cifar10.py > log.txt &
   watch -n 0.5 nvidia-smi
+  
+  # Tensorflow
+  import tensorflow.compat.v1 as tf
+  tf.disable_v2_behavior()
+
+  # import tensorflow as tf
+  print(tf.__version__)
+
+  # https://www.tensorflow.org/install/source#gpu
+  # export CUDA_VISIBLE_DEVICES=2
+  # conda activate tf-1-14
+  # export PATH=/usr/local/cuda-10.1/bin:$PATH
+  # export LD_LIBRARY_PATH=/usr/local/cuda-10.1/lib64:$LD_LIBRARY_PATH
+  # export LIBRARY_PATH=/usr/local/cuda-10.1/lib64:$LIBRARY_PATH
+  # nvcc --vesion
+  
+  os.environ["CUDA_DEVICE_ORDER"] = "PCI_BUS_ID"
+  os.environ["CUDA_VISIBLE_DEVICES"] = "2"
+
+  from tensorflow.python.client import device_lib
+  print(device_lib.list_local_devices())
+
+  tf.test.is_gpu_available()
+  tf.test.gpu_device_name()
   ```
 
 - tmux:
