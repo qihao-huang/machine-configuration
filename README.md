@@ -25,6 +25,8 @@
 ## Linux
 - `df -hl`
 - `du -h --max-depth=1`
+- `tar -zcvf dirname.zip dirname` and `tar xvfz dirname.zip`
+- `tar -zcvf dirname.zip dirname ` and `tar zxvf dirname.tar.gz
 
 
 ## python-package
