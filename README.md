@@ -72,7 +72,7 @@ or
   echo ${PATH}
   # add new variables in bashrc/bash_profile
   echo 'alias cc-v="conda activate cc-v"' >> ~/.zshrc
-  echo 'export export PATH="/Users/quiescence/anaconda3/bin:$PATH"' >> ~/.zshrc
+  echo 'export PATH="/Users/quiescence/anaconda3/bin:$PATH"' >> ~/.zshrc
   source ~/.zhsrc
   # or
   rezsh
