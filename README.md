@@ -203,6 +203,17 @@ or
   
 - Tensorboard/Jupyter:
   ```
+  # Jupyter 
+  jupyter kernelspec list
+  # python
+  import sys
+  print(sys.executable)
+  print(sys.version)
+  print(sys.version_info)
+  
+  ```
+
+  ```
   hostname -I 
   # connect Cisco Annyconnect to CS/Univ's VPN
   # open local terminal
